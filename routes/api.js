@@ -5,3 +5,4 @@ const komikController = require("../controller/komikController");
 
 router.get("/komik", komikController.getAllKomik);
 router.get("/komik/:id", komikController.getKomikById);
+router.post("/komik", komikController.createKomik);
