@@ -8,3 +8,5 @@ router.get("/komik/:id", komikController.getKomikById);
 router.post("/komik", komikController.createKomik);
 router.put("/komik/:id", komikController.updateKomik);
 router.delete("/komik/:id", komikController.deleteKomik);
+
+module.exports = router;
